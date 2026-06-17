@@ -101,6 +101,7 @@ export default function Home() {
                 </Button>
               </Link>
             </Show>
+            <Button variant={"outline"} className='cursor-pointer dark:bg-gray-600 bg-gray-300'><Link href="https://digitalheroesco.com">Built for Digital Heroes</Link></Button>
           </div>
         </div>
       </nav>
@@ -328,12 +329,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 py-12">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-7 h-7 rounded-lg bg-primary/20 flex items-center justify-center">
-                <Zap className="w-3.5 h-3.5 text-primary" />
-              </div>
-              <span className="text-sm font-semibold">
-                Zip<span className="gradient-text">Link</span>
-              </span>
+              <h1 className="text-sm">Built by </h1>
+              <h2>Abhijith M I</h2>
+              <Link href="mailto:abhijith091006@gmail.com" className="cursor-pointer text-blue-500">(abhijith091006@gmail.com)</Link>
             </div>
             <div className="flex items-center gap-6 text-xs text-muted-foreground">
               <a href="#features" className="hover:text-foreground transition-colors">Features</a>
