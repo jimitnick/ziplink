@@ -124,7 +124,7 @@ export function LinksTable({
               </TableHeader>
               <TableBody>
                 {urls.map((url) => {
-                  const fullShortUrl = `http://localhost:3000/api/${url.short_url}`
+                  const fullShortUrl = `http://https://ziplink-omega.vercel.app/api/${url.short_url}`
                   return (
                     <TableRow key={url.id} className="border-border/30 group">
                       <TableCell>
